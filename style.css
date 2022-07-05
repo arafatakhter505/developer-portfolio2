@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 50%;
+}
+.top-banner{
+    display: flex;
+    padding: 100px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.top-banner .half-width img{
+    width: 80%;
+    float: right;
+}
+.top-banner h1{
+    font-size: 60px;
+}
+.top-banner h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.my-btn{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.top-banner h3{
+    color: tomato;
+}
+.top-banner p{
+    margin-bottom: 40px;
+}
+.about{
+    display: flex;
+    padding: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about img{
+    width: 80%;
+}
+.about h2{
+    font-size: 40px;
+    color: tomato;
+}
+.about .half-width{
+    margin: auto 0;
+}
+.about p{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.service{
+    padding: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.service h2{
+    text-align: center;
+    font-size: 40px;
+    color: tomato;
+}
+.para{
+    text-align: center;
+    margin: 10px 200px 50px 200px;
+}
+.s-item-area{
+    display: flex;
+}
+.s-item{
+    width: 33%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid orange;
+    border-right: 5px solid tomato;
+}
+.s-item img{
+    width: 100%;
+}
+.s-item h3{
+    color: tomato;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.s-item p{
+    text-align: justify;
+}
+.s-item a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.team{
+    padding: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+}
+.team h2{
+    text-align: center;
+    font-size: 40px;
+    color: tomato;
+}
+.team-membar{
+    display: flex;
+}
+.t-item{
+    width: 25%;
+    margin: 0 30px;
+    border-right: 5px solid orange;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid tomato;
+    border-top: 5px solid tomato;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    transition: 1s;
+}
+.team-membar img{
+    width: 100%;
+}
+.t-item:hover{
+    transform: translateY(20px);
+}
+.contact{
+    padding: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.contact h2{
+    font-size: 40px;
+    color: tomato;
+}
+.contact-area{
+    display: flex;
+}
+.contact img{
+    width: 80%;
+    float: right;
+    margin: 100px 0 0 0;
+}
+.contact input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid orange;
+}
+textarea{
+    display: block;
+    border: 1px solid orange;
+    width: 80%;
+    margin: 30px 0 ;
+    padding: 10px;
+}
+.contact input:focus{
+    outline: 1px solid tomato;
+}
+textarea:focus{
+    outline: 1px solid tomato;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+}
